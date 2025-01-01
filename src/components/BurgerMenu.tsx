@@ -1,6 +1,7 @@
-import links from '@/constants/links';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+
+import links from '@/constants/links';
 
 const BurgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);

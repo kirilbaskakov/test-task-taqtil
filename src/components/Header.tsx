@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
-import BurgerMenu from './BurgerMenu';
+
 import links from '@/constants/links';
+
+import BurgerMenu from './BurgerMenu';
 
 const Header = () => {
   return (

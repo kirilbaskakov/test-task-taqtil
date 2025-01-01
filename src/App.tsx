@@ -1,9 +1,9 @@
 import {
-  Route,
-  RouterProvider,
   createBrowserRouter,
-  createRoutesFromElements
-} from 'react-router-dom';
+  createRoutesFromElements,
+  Route,
+  RouterProvider} from 'react-router-dom';
+
 import routes from '@/constants/routes';
 
 const router = createBrowserRouter(

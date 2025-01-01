@@ -1,8 +1,10 @@
-import { Status } from '@/types/ITask';
 import { useState } from 'react';
+
+import { useTaskStore } from '@/store/TaskStore';
+import { Status } from '@/types/ITask';
+
 import Modal from './Modal';
 import TaskForm, { FormData } from './TaskForm';
-import { useTaskStore } from '@/store/TaskStore';
 
 const EditTask = ({
   id,

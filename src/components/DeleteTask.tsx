@@ -1,6 +1,8 @@
 import { useState } from 'react';
-import Modal from './Modal';
+
 import { useTaskStore } from '@/store/TaskStore';
+
+import Modal from './Modal';
 
 const DeleteTask = ({ id }: { id: number }) => {
   const { deleteTask } = useTaskStore();

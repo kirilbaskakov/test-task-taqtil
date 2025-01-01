@@ -1,6 +1,7 @@
+import { FormEventHandler, useState } from 'react';
+
 import statuses from '@/constants/statuses';
 import { Status } from '@/types/ITask';
-import { FormEventHandler, useState } from 'react';
 
 export interface FormData {
   name: string;

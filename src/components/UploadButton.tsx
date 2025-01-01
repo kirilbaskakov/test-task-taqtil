@@ -1,6 +1,7 @@
+import { ChangeEventHandler } from 'react';
+
 import { useTaskStore } from '@/store/TaskStore';
 import validateTasks from '@/utils/validateTasks';
-import { ChangeEventHandler } from 'react';
 
 const UploadButton = () => {
   const { setTasks } = useTaskStore();

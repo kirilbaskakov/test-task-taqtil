@@ -1,11 +1,7 @@
 import FeedbackForm from '@/components/FeedbackForm';
 
 const ContactsPage = () => {
-  return (
-    <>
-      <FeedbackForm />
-    </>
-  );
+  return <FeedbackForm />;
 };
 
 export default ContactsPage;

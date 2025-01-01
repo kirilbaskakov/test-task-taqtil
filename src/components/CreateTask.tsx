@@ -1,7 +1,9 @@
 import { useState } from 'react';
+
+import { useTaskStore } from '@/store/TaskStore';
+
 import Modal from './Modal';
 import TaskForm, { FormData } from './TaskForm';
-import { useTaskStore } from '@/store/TaskStore';
 
 const CreateTask = () => {
   const { createTask } = useTaskStore();

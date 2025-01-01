@@ -1,9 +1,11 @@
-import EditTask from './EditTask';
-import DeleteTask from './DeleteTask';
-import { useTaskStore } from '@/store/TaskStore';
-import statuses from '@/constants/statuses';
 import { useState } from 'react';
+
+import statuses from '@/constants/statuses';
+import { useTaskStore } from '@/store/TaskStore';
 import { Status } from '@/types/ITask';
+
+import DeleteTask from './DeleteTask';
+import EditTask from './EditTask';
 
 const TasksTable = () => {
   const { tasks } = useTaskStore();
